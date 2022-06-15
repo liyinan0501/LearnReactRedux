@@ -12,6 +12,13 @@ export default function App() {
       <Man></Man>
       <hr />
       <Woman></Woman>
+      <button
+        onClick={() =>
+          console.log(Math.floor(Math.random() * (10 - 1 + 1) + 1))
+        }
+      >
+        Buy or Not
+      </button>
     </div>
   )
 }
