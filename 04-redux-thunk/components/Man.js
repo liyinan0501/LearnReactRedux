@@ -1,7 +1,7 @@
 import { useSelector, useDispatch } from 'react-redux'
 import { addMoney } from '../store/action'
 export default function Man() {
-  const money = useSelector((state) => state.reducer_money)
+  const money = useSelector((state) => state)
   const dispatch = useDispatch()
   return (
     <div>

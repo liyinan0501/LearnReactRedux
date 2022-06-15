@@ -2,7 +2,7 @@ import { useSelector, useDispatch } from 'react-redux'
 import { spendMoney, spendMoneyAsync } from '../store/action'
 
 export default function Woman() {
-  const money = useSelector((state) => state.reducer_money)
+  const money = useSelector((state) => state)
   const dispatch = useDispatch()
   return (
     <div>
