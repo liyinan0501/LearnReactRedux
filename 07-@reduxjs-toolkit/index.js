@@ -9,14 +9,3 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <App></App>
   </Provider>
 )
-
-/* 
-  redux
-    createStore, applyMiddleware, combineReducer
-
-  react-redux
-    Provider, userSelector, useDispatch
-  
-  redux-thunk
-    import thunk from 'redux-thunk'
-  */
